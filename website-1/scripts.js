@@ -8,7 +8,7 @@
 
 
 // ********************** Exercise 2 ********************** //
-// In the last div, use JavaScript to change the paragraph element to a span element.
+// In the last div, use innerHTML to replace all of the content with a span tag that has the text 'Hello World'.
 
 
 
@@ -21,10 +21,6 @@
 
 
 
-
-
-// ********************** Exercise 4 ********************** //
-// Console log the value the user types into the input field.
 
 
 
