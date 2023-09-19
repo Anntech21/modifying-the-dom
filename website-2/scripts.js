@@ -9,13 +9,13 @@ function addItem() {
     //add your code here
 
     // Create a new list item element
-    var listItem = // add your code here
+    let listItem = // add your code here
     
     // Set the text content of the new list item
     listItem.textContent = newItemText;
 
     // Get the list where we want to add the new item
-    var itemList = // add your code here
+    let itemList = // add your code here
 
     // Append the new list item to the list
     itemList.appendChild(listItem);
@@ -23,3 +23,5 @@ function addItem() {
     // Clear the input field
     document.getElementById("newItem").value = "";
 }
+
+document.getElementById("addButton").addEventListener("click", addItem);
